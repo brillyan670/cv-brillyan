@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md z-50 shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-indigo-600">augustav<span class="text-slate-800">brillyan sinduartha.</span></a>
+            <div class="space-x-6 hidden md:flex">
+                <a href="#home" class="hover:text-indigo-600 transition">Home</a>
+                <a href="#about" class="hover:text-indigo-600 transition">Tentang</a>
+                <a href="#portfolio" class="hover:text-indigo-600 transition">Portofolio</a>
+                <a href="#contact" class="hover:text-indigo-600 transition">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-br from-indigo-50 via-white to-pink-50">
+        <div class="max-w-4xl mx-auto text-center px-6">
+            <p class="text-indigo-600 font-semibold tracking-wide uppercase mb-3">Halo semua, saya</p>
+            <h1 class="text-4xl md:text-6xl font-bold text-slate-900 mb-4 tracking-tight">
+                AUGUSTAV BRILLYAN SINDUARTHA
+            </h1>
+            <p class="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
+                Seorang <span class="text-indigo-600 font-semibold">Web Developer / Desainer / Mahasiswa</span> yang hobi membangun hal-hal keren di internet.
+            </p>
+            <div class="space-x-4">
+                <a href="#portfolio" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full font-medium shadow-lg shadow-indigo-200 transition content-center">Lihat Karya</a>
+                <a href="#contact" class="border border-slate-300 hover:border-slate-400 bg-white px-6 py-3 rounded-full font-medium transition">Hubungi Saya</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-2">Tentang Saya</h2>
+                <div class="h-1 w-12 bg-indigo-600 mx-auto rounded"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="flex justify-center">
+                    <div class="w-64 h-64 bg-gradient-to-tr from-indigo-500 to-pink-500 rounded-2xl shadow-xl transform rotate-3 hover:rotate-0 transition duration-300 flex items-center justify-center text-white text-lg font-bold">
+                        <img src="1.jpeg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 text-slate-900">Siapa saya sebenarnya?</h3>
+                    <p class="text-slate-600 mb-6 leading-relaxed">
+                         Saya adalah seorang siswa jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki ketertarikan besar dalam dunia teknologi dan pengembangan aplikasi. Melalui jurusan ini, saya belajar bagaimana logika coding bekerja, bagaimana merancang basis data yang rapi, hingga cara membangun aplikasi yang solutif.
+
+Sebagai siswa RPL, saya terbiasa memecahkan masalah (problem solving) lewat baris kode dan selalu penasaran dengan teknologi terbaru. Saya adalah tipe pembelajar cepat yang siap mengimplementasikan teori sekolah ke dalam proyek-proyek nyata.
+                    </p>
+                    
+                    <h4 class="font-semibold text-slate-900 mb-3">Skill & Keahlian:</h4>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-indigo-50 text-indigo-700 px-4 py-1.5 rounded-full text-sm font-medium">HTML & CSS</span>
+                        <span class="bg-indigo-50 text-indigo-700 px-4 py-1.5 rounded-full text-sm font-medium">JavaScript</span>
+                        <span class="bg-indigo-50 text-indigo-700 px-4 py-1.5 rounded-full text-sm font-medium">Tailwind CSS</span>
+                        <span class="bg-indigo-50 text-indigo-700 px-4 py-1.5 rounded-full text-sm font-medium">UI/UX Design</span>
+                        <span class="bg-indigo-50 text-indigo-700 px-4 py-1.5 rounded-full text-sm font-medium">Git / GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-2">Project Terbaru</h2>
+                <div class="h-1 w-12 bg-indigo-600 mx-auto rounded"></div>
+                <p class="text-slate-500 mt-4">Beberapa karya atau projek yang pernah saya buat baru-baru ini.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center text-slate-400 font-medium"><img src="2.jpeg" alt=""></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">robot avoider</h3>
+                        <p class="text-slate-600 text-sm mb-4">Robot menggunakan "mata" buatan, biasanya berupa Sensor Ultrasonik (untuk mengukur jarak menggunakan gelombang suara) atau Sensor Infrared (menggunakan cahaya inframerah).</p>
+                        <span class="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md font-medium"></span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center text-slate-400 font-medium"><img src="3.jpeg" alt=""></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">smarthome</h3>
+                        <p class="text-slate-600 text-sm mb-4">Lampu Pintar (Smart Bulb): Bisa dimatikan/dinyalakan lewat HP atau otomatis redup saat jam tidur.</p>
+                        <span class="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md font-medium"></span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="h-48 bg-slate-200 flex items-center justify-center text-slate-400 font-medium"><img src="4.jpeg" alt=""></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">kapal autonomous surface</h3>
+                        <p class="text-slate-600 text-sm mb-4">Lampu Pintar (Smart Bulb): Bisa dimatikan/dinyalakan lewat HP atau otomatis redup saat jam tidur.</p>
+                        <span class="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-md font-medium"</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-2">tanya tanya lebih jelas?bisa hubungi email/sosmed Saya
+             dibawah ini
+                
+            <div class="h-1 w-12 bg-indigo-600 mx-auto rounded mb-6">
+               
+            
+            <p class="text-slate-600 mb-8 max-w-md mx-auto">
+                
+                email:augustavartha@gmail.com instagram:_brillyannn whatshap:085784881324
+                
+            </p>
+            
+            <div class="flex justify-center space-x-6 text-slate-600 font-medium">
+                <a href="mailto:emailkamu@gmail.com" class="hover:text-indigo-600 transition"></a>
+                <a href="https://linkedin.com" target="_blank" class="hover:text-indigo-600 transition"></a>
+                <a href="https://github.com" target="_blank" class="hover:text-indigo-600 transition"></a>
+                <a href="https://instagram.com" target="_blank" class="hover:text-indigo-600 transition"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800 text-center text-sm">
+        <p>&copy; </p>
+    </footer>
+
+</body>
+</html>
